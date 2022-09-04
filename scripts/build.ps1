@@ -14,4 +14,5 @@ cmake ..
 cmake --build .
 # Add libraries
 Copy-Item -Recurse .\libs\SDL\Debug\* .\Debug\
+Copy-Item -Recurse .\libs\SDL_image\Debug\* .\Debug\
 Set-Location $currentPath
